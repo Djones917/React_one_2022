@@ -1,6 +1,11 @@
 class Hello extends React.Component {
     render() {
-        return <h1>Hello There!</h1>;
+        return (
+            <div>
+                <h1>Hello There!</h1>
+                <h1>My number is: {18}</h1>
+            </div>
+        );
     }
 }
 
