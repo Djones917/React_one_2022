@@ -28,7 +28,9 @@
 // Conditionals in JSX
 class NumPicker extends React.Component {
     render() {
-
+          return (
+              <h1>Your Number is:</h1>
+          )
     }
 }
 
