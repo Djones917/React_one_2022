@@ -24,6 +24,10 @@
 
 
 
+// Get Number
+function getNum() {
+  return Math.floor(Math.random() * 10);
+}
 
 // Conditionals in JSX
 class NumPicker extends React.Component {
