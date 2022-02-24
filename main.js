@@ -33,7 +33,7 @@ function getNum() {
 class NumPicker extends React.Component {
     render() {
           return (
-              <h1>Your Number is:</h1>
+              <h1>Your Number is: {getNum()}</h1>
           )
     }
 }
