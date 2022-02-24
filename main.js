@@ -26,7 +26,7 @@
 
 // Get Number
 function getNum() {
-  return Math.floor(Math.random() * 10);
+  return Math.floor(Math.random() * 10 + 1);
 }
 
 // Conditionals in JSX
