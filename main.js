@@ -32,9 +32,11 @@ function getNum() {
 // Conditionals in JSX
 class NumPicker extends React.Component {
     render() {
-          return (
+          <div>
+            return (
               <h1>Your Number is: {getNum()}</h1>
           )
+          </div>
     }
 }
 
