@@ -36,7 +36,7 @@ class NumPicker extends React.Component {
             return (
               <div>
               <h1>Your Number is: {num}</h1>
-              <p>{thing ? 'Ok' : 'Try Next Time'}</p>
+              <p>{num === 7 ? 'Congrats' : 'Try Next Time'}</p>
               </div>              
           )         
     }
