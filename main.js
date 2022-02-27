@@ -25,21 +25,21 @@
 
 
 // Get Number
-function getNum() {
-  return Math.floor(Math.random() * 10 + 1);
-}
+// function getNum() {
+//   return Math.floor(Math.random() * 10 + 1);
+// }
 
-// Conditionals in JSX
-class NumPicker extends React.Component {
-    render() { 
-            const num = getNum();         
-            return (
-              <div>
-              <h1>Your Number is: {num}</h1>
-              <p>{num === 7 ? 'Congrats' : 'Try Next Time'}</p>
-              </div>              
-          )         
-    }
-}
+// // Conditionals in JSX
+// class NumPicker extends React.Component {
+//     render() { 
+//             const num = getNum();         
+//             return (
+//               <div>
+//               <h1>Your Number is: {num}</h1>
+//               <p>{num === 7 ? 'Congrats' : 'Try Next Time'}</p>
+//               </div>              
+//           )         
+//     }
+// }
 
-ReactDOM.render(<NumPicker />, document.getElementById('root'));
+// ReactDOM.render(<NumPicker />, document.getElementById('root'));
