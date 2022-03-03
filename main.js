@@ -3,7 +3,7 @@ class App extends React.Component {
         return (
         <div>
           <Hello to="Vincent" from="Dad"/>
-          <Hello />
+          <Hello to="Ivy" from="Dad"/>
         </div>
         )
     }
